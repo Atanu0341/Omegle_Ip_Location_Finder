@@ -1,9 +1,10 @@
 # Omegle_Ip_Location_Finder
 
+PLEASE REPLACE "your-api-key-here" WITH AN
 
-// --------------------------------------------
-// PLEASE REPLACE "your-api-key-here" WITH AN
-// API KEY FROM https://ipgeolocation.io/
+API KEY FROM https://ipgeolocation.io/
+
+```js
 let apiKey = "your-api-key-here";
 
 window.oRTCPeerConnection =
@@ -45,3 +46,5 @@ let getLocation = async (ip) => {
     })
   );
 };
+
+```
